@@ -1,0 +1,31 @@
+NEGÓCIO:
+- Qual é o negócio?
+Fábrica de mesas de mármore redondas ou retangulares sob demanda. 
+
+- Quais são os problemas/oportunidades?
+Atualmente os cálculo  são feitos manualmente pelos funcionários e isso é um processo que pode levar um certo tempo e às vezes é até passível de erro humano. 
+É necessário um sistema que faça esse cálculo com exatidão e mostre os resultados para o usuário.
+
+- Quais são os vocábulos de negócio? 
+Área: Área é um conceito matemático que pode ser definida como quantidade de espaço bidimensional, ou seja, de superfície. 
+Perímetro: O perímetro é a medida do contorno de um objeto bidimensional, ou seja, a soma de todos os lados de uma figura geométrica. O perímetro de um círculo ou elipse é chamado de circunferência.
+
+- Quais são os processos de negócio?
+
+A partir dos dados raio, base e altura, fazer o cálculo da área e perímetro de circunferencias e retangulos.
+- Quais são as regras de negócio? 
+
+O cálculo do perimetro e área de uma circunferencia deve ser feito com a formula:  (área: PI.R^2. perímetro: 2.PI.R)
+
+O cálculo da área e perimetro dos retângulos deve ser feito com a formula: (área: BASE.ALTURA. perímetro: 2.(BASE+ALTURA))
+
+- Quem são os stakeholders?
+	Funcionário (marmorista);
+	Clientes;
+	Dono da fábrica;
+
+REQUISITO:
+=========
+- R0001 – O sistema deverá ser implementado utilizando o método Procedimental.
+- R0002 – Os dados de entradas a serem solicitados deveram ser:base, altura, raio.
+- R0004 – O sistema deverá mostrar os resultados assim que os dados necessários forem inseridos. 

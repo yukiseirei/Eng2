@@ -1,2 +1,2 @@
 # Eng2
-aula
+Alunos no projeto: Rafael Menezes Souza e Fernando Roberto da Silva
