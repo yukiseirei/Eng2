@@ -1,0 +1,30 @@
+import java.math.*;
+
+public class Pi {
+
+    public static void main(String[] args) {
+        
+        double Circulo_raio = 3;
+        double Circulo_perimetro;
+        double Circulo_area;
+        double Circulo_pi = Math.PI;
+        
+        double Retangulo_base = 5.5;
+        double Retangulo_altura = 6.3;
+        double Retangulo_perimetro;
+        double Retangulo_area;
+        
+        
+        Circulo_area = Circulo_pi * (Math.pow(Circulo_raio,2));
+        Circulo_perimetro = 2 * Circulo_pi * Circulo_raio;
+        
+        System.out.println("A area do circulo e: " + Circulo_area + ", e o perimetro do circulo e: " + Circulo_perimetro + ".");
+        
+		Retangulo_area = Retangulo_base * Retangulo_altura;
+		Retangulo_perimetro = 2 * (Retangulo_base + Retangulo_altura);
+		
+		System.out.println("A area do Retangulo e: " + Retangulo_area + ", e o perimetro do retangulo e: " + Retangulo_perimetro + ".");
+        
+    }
+    
+}
